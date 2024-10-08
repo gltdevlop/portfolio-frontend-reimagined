@@ -13,13 +13,14 @@ jobs:
       packages: write
 
     steps:
-      - name: Main action
-        uses: oural1206/docker-deploy@V1.4
+      - name: check files
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Build the app
+        run: npm run build-only
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          COMPOSE-PATH: "~/webserver"
-          HOST: "51.178.31.72"
-          PORT: "62812"
-          USERNAME: "root"
-          KEY: ${{ secrets.KEY }}
-          PASSPHRASE: ${{ secrets.PASSPHRASE }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
