@@ -29,10 +29,4 @@
     "vite": "^4.1.4",
     "vue-tsc": "^1.2.0"
   }
-  "scripts": {
-  
-  "build": "npm run build-only",
-  
-
-}
 }
