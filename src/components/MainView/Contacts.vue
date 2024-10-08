@@ -20,7 +20,7 @@
         </div>
       </div>
       <form @submit="sendMessage">
-        <button type="submit">Me contacter !</button>
+        <button type="email">Me contacter !</button>
       </form>
     </div>
   </section>
@@ -96,15 +96,12 @@ export default {
             p, a
               font-size: 1rem
     form
-      flex: 60%
+      flex: 20%
       display: flex
       flex-wrap: wrap
       gap: 1rem
-      input, textarea
-        flex: 100%
-        font-size: 0.825rem
       button
-        flex: 50%
+        flex: 5%
   @media (max-width: $m)
     .container
       flex-direction: column
