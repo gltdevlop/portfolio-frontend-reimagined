@@ -1,0 +1,25 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-push-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Main action
+        uses: oural1206/docker-deploy@V1.4
+        with:
+          COMPOSE-PATH: "~/webserver"
+          HOST: "51.178.31.72"
+          PORT: "62812"
+          USERNAME: "root"
+          KEY: ${{ secrets.KEY }}
+          PASSPHRASE: ${{ secrets.PASSPHRASE }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

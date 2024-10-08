@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Centre Pénentiaire de Maubeuge",
+    "image": "cp.png",
+    "description": "Stage de 3ème<br>(Maubeuge - Décembre 2022)",
+    "title": "Centre pénitentaire accueillant 400 détenus",
+    "text": "J’ai découvert le fonctionnement d’une entreprise qui développe des solutions digitales et plus largement, la vie en entreprise.<br><br>J’ai appris à développer des applications sous IOS (Swift, Xcode) et à gagner en méthode et productivité.<br><br>J’ai apprécié ce stage et la vie équipe, toutefois, je me suis rendu compte que je veux aller plus loin que simplement développer."
+  },
+  {
+    "name": "E-Catalyst",
+    "image": "ecat.png",
+    "description": "Stage de 2nde<br>(Maubeuge - Juin 2024)",
+    "title": "Entreprise spécialisée dans les formations et la cybersécurité",
+    "text": "Ce stage m'as permis de découvrir le milieu des PME informatique.<br><br>J'ai appris à gérer un Moodle (plateforme d'e-formation), à déployer une application Web sur Docker et à créer un catalogue avec InDesign."
+  }]

@@ -1,0 +1,32 @@
+$color-dark: #0f001e
+$color-primary: #220046
+$color-secondary: #b9abd1
+$color-grey: #E8E4E6
+$color-white: #FFFFFE
+$color-highlight: #f97c60
+$color-wrong: #E16162
+$overlay-dark: #0f001e
+
+$filter-dark: invert(10%) sepia(20%) saturate(2418%) hue-rotate(134deg) brightness(95%) contrast(104%)
+$filter-primary: invert(22%) sepia(29%) saturate(1293%) hue-rotate(129deg) brightness(91%) contrast(101%)
+$filter-secondary: invert(85%) sepia(8%) saturate(678%) hue-rotate(112deg) brightness(98%) contrast(82%)
+$filter-grey: invert(91%) sepia(9%) saturate(53%) hue-rotate(277deg) brightness(103%) contrast(88%)
+$filter-white: invert(100%) sepia(78%) saturate(573%) hue-rotate(301deg) brightness(112%) contrast(105%)
+$filter-highlight: invert(84%) sepia(13%) saturate(1983%) hue-rotate(334deg) brightness(99%) contrast(97%)
+$filter-wrong: invert(42%) sepia(34%) saturate(1028%) hue-rotate(309deg) brightness(107%) contrast(83%)
+
+$xs: 448px
+$s: 640px
+$m: 768px
+$ml: 917px
+$l: 1024px
+$xl: 1280px
+
+@mixin padding
+  padding: 10rem 15rem
+  @media (max-width: $l)
+    padding: 5rem 10rem
+  @media (max-width: $ml)
+    padding: 5rem
+  @media (max-width: $m)
+    padding: 3.75rem

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Mona Sans';
+  src: local('Mona sans'), url('./Mona-Sans.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mona Sans Wide';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Mona Sans Bold Wide'), url('./Mona-Sans-BoldWide.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mona Sans Wide';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Mona Sans ExtraBold Wide'), url('./Mona-Sans-ExtraBoldWide.ttf') format('truetype');
+  font-display: swap;
+}

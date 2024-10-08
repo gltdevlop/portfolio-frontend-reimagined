@@ -1,0 +1,192 @@
+[
+  {
+    "date": "2018",
+    "content": [
+      {
+        "title": "Language",
+        "icons": [
+          {
+            "name": "Python",
+            "url": "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white",
+            "description": "J'ai démarré Java à mes 9 ans grâce à Minecraft.<br>J'ai appris à faire des programmes addtionnels pour ce jeu afin de rendre mon expérience meilleure et d'ajouter des fonctionalités."
+          }
+        ]
+      },
+      {
+        "title": "IDE",
+        "icons": [
+          {
+            "name": "Eclipse",
+            "url": "https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse%20IDE&logoColor=white",
+            "description": "Eclipse est un IDE pour java, je l’ai utilisé pour mes premiers projets Java."
+          }
+        ]
+      },
+      {
+        "title": "OS",
+        "icons": [
+          {
+            "name": "Linux / Linux Mint",
+            "url": "https://img.shields.io/badge/Linux_Mint-87CF3E?style=for-the-badge&logo=linux-mint&logoColor=black",
+            "description": "Linux est un système d'exploitation. J'ai commencé à m'en servir très tôt car mes premiers projets étaient sur cet OS (et particulièrement Mint)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2020",
+    "content": [
+      {
+        "title": "Languages",
+        "icons": [
+          {
+            "name": "Python",
+            "url": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
+            "description": "Python est un des langages de programmation les plus simples. J'ai commencé à m'en servir pour faire des applications avec Tkinter pour jouer à Minecraft avec des mods préinstallés."
+          },
+          {
+            "name": "HTML 5",
+            "url": "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+            "description": "HTML est un langage permettant de structurer des pages web"
+          },
+          {
+            "name": "CSS 3",
+            "url": "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+            "description": "CSS est un langage permettant de styliser des pages web"
+          }
+        ]
+      },
+      {
+        "title": "IDE",
+        "icons": [
+          {
+            "name": "PyCharm",
+            "url": "https://img.shields.io/badge/PyCharm-0000009745B6?style=for-the-badge&logo=PyCharm&logoColor=white",
+            "description": "PyCharm est un IDE Python que tous les développeurs connaissent, je l’ai utilisé pour divers projets."
+          },
+          {
+            "name": "VSCode",
+            "url": "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white",
+            "description": "VSCode est un IDE que tous les développeurs connaissent."
+          }
+        ]
+      },
+      {
+        "title": "Virtualization",
+        "icons": [
+          {
+            "name": "VirtualBox",
+            "url": "https://img.shields.io/badge/VirtualBox-21416b?style=for-the-badge&logo=VirtualBox&logoColor=white",
+            "description": "VirtualBox est un logiciel de virtualisation permettant de faire tourner un système d'exploitation dans un autre"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2021",
+    "content": [
+      {
+        "title": "Softwares",
+        "icons": [
+          {
+            "name": "Adobe Première Pro",
+            "url": "https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white",
+            "description": "Première Pro est surement le logiciel de montage le plus utilisé au monde. J'ai appris à m'en servir en profondeur pour m'améliorer sur YouTube."
+          }
+        ]
+      },
+      {
+        "title": "Database",
+        "icons": [
+          {
+            "name": "MySql",
+            "url": "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white",
+            "description": "MySQL est une base de données, je l'ai utilisée pour faire des liens entre les addons Minecraft que je continuais à développer et mon site."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023",
+    "content": [
+      {
+        "title": "Frameworks & Library",
+        "icons": [
+          {
+            "name": "Electron",
+            "url": "https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9",
+            "description": "Electron est un framework permettant de faire des applications de bureau avec des technologies web."
+          }
+        ]
+      },
+      {
+        "title": "CMS",
+        "icons": [
+          {
+            "name": "Wordpress",
+            "url": "https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white",
+            "description": "Wordpress est un CMS, il est très pratique pour faire des sites web."
+          }
+        ]
+      },
+      {
+        "title": "Tech Hardwares",
+        "icons": [
+          {
+            "name": "Arduino",
+            "url": "https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white",
+            "description": "J'ai acheté un Arduino Uno afin de réaliser des projets de domotique et de 'bidouiller' avec."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024",
+    "content": [
+      {
+        "title": "Tech Hardware",
+        "icons": [
+          {
+            "name": "Raspberry Pi",
+            "url": "https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white",
+            "description": "Un Raspberry Pi est un nano-ordinateur, j'ai utilisé le RPI4 afin de faire un mini-serveur."
+          }
+        ]
+      },
+      {
+        "title": "Softwares",
+        "icons": [
+          {
+            "name": "Adobe InDesign",
+            "url": "https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=white",
+            "description": "Adobe InDesign est un logiciel permettant de designer des magazines, des catalogues... Je m'en suis servi lors de mon stage d'observation de seconde"
+          },
+          {
+            "name": "Adobe Illustrator",
+            "url": "https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white",
+            "description": "Illustrator est un logiciel permettant de designer logos, identités visuelles... Etant aussi passionné par l'audiovisuel, je me suis également interéssé au graphisme."
+          }
+        ]
+      },
+      {
+        "title": "Servers",
+        "icons": [
+          {
+            "name": "Docker",
+            "url": "https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white",
+            "description": "Docker est un framework pour containeriser des applications, je m'en sers pour de nombreux projets dont un serveur Web."
+          },
+          {
+            "name": "ProxMox",
+            "url": "https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=Proxmox&logoColor=white",
+            "description": "ProxMox est un OS de virtualisation qui permet de lancer des VM afin de faire tourner plusieurs OS sur un même PC."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "portfolio",
+    "title": "<span>&#128187;</span> Portfolio",
+    "description": "Mon portfolio à été développé et designé par Oural sur Figma et PhpStorm.<br><br>Le site est déployé sur un MiniPC VPS avec Docker et NGINX.",
+    "tags": [ "VueJS", "Docker", "NGINX", "Servers"],
+    "images": [
+      {
+        "id": "phpproject.png",
+        "type": "IMG",
+        "description": "Projet PhpStorm"
+      },
+      {
+        "id": "dockerfile.png",
+        "type": "IMG",
+        "description": "Fichier Dockerfile"
+      },
+      {
+        "id": "phone.png",
+        "type": "IMG",
+        "description": "Le site sur un smartphone"
+      }
+    ]
+  },
+  {
+    "id": "logos",
+    "title": "<span>&#128444;</span> Logos d'associations",
+    "description": "En tant qu'apprenti graphiste, j'ai été souvent demandé par les associations du coin afin de faire des logos, des identités visuelles.<br><br>L'Association RPSA (Relais Prison Sambre Avesnois) et l'Association CIA (club informatique assevent) m'ont contactés pour leurs sites web, leurs logos et leurs communications.",
+    "tags": ["Illustrator", "Canva", "Wordpress" ],
+    "images": [
+      {
+        "id": "logo-cia.png",
+        "type": "IMG",
+        "description": "Logo CIA"
+      },
+      {
+        "id": "logo-rpsa.png",
+        "type": "IMG",
+        "description": "Logo RPSA"
+      },
+      {
+        "id": "bann-rpsa.png",
+        "type": "IMG",
+        "description": "Bannière RPSA"
+      }
+    ]
+  },
+  {
+    "id": "cal",
+    "title": "<span>&#128336;</span>CNED TheCal",
+    "description": "CNED - The Cal est une application développée en Python par moi afin de me faciliter la vie.<br><br>Cette application me permet de m'organiser dans mon travail et mes évaluations pour mon suivi au CNED.",
+    "tags": ["Python", "PyCharm", "Tkinter"],
+    "images": [
+      {
+        "id": "code.png",
+        "type": "IMG",
+        "description": "Un bout du code"
+      },
+      {
+        "id": "ui.png",
+        "type": "IMG",
+        "description": "L'UI de l'appli"
+      },
+      {
+        "id": "repo.png",
+        "type": "IMG",
+        "description": "Le repo github"
+      }
+    ]
+  },
+  {
+    "id": "mclauncher",
+    "title": "<span>&#127918;</span> Launcher Personalisable",
+    "description": "Un lanceur Minecraft afin de créer sa propre installation du jeu.<br><br>Avec un système de Minecraft-Portable en Batch avec un runtime java intégré, le joueur peut créer sa propre installation de minecraft avec ses mods, sa version...",
+    "tags": [ "Python", "Minecraft" ],
+    "images": [
+      {
+        "id": "readme.png",
+        "type": "IMG",
+        "description": "Readme du projet github"
+      },
+      {
+        "id": "github.png",
+        "type": "IMG",
+        "description": "Page Github du projet McPortable"
+      },
+      {
+        "id": "boutcode.png",
+        "type": "IMG",
+        "description": "Bout de code du Main.py du Launcher"
+      }
+    ]
+  },
+  {
+    "id": "otherstuff",
+    "title": "<span>&#128039;</span> Projet Minecraft Java",
+    "description": "J'ai développé beaucoup de projets minecraft en java, comme des mods, plugins et autres...",
+    "tags": [ "Java", "Minecraft" ],
+    "images": [
+      {
+        "id": "codejava.png",
+        "type": "IMG",
+        "description": "Classe de code d'addon Minecraft Java"
+      },
+      {
+        "id": "mod.png",
+        "type": "IMG",
+        "description": "Page d'accueil minecraft modifiée par moi"
+      }
+    ]
+  }]
