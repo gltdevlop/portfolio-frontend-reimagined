@@ -30,14 +30,6 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Contacts",
-  data() {
-    return {
-      name: '',
-      email: '',
-      object: '',
-      message: ''
-    }
-  },
   methods: {
     sendMessage(event) {
       event.preventDefault()
