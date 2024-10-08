@@ -27,7 +27,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Contacts",
@@ -44,11 +43,7 @@ export default {
       event.preventDefault()
       const form = event.target
       const button = form.querySelector('button')
-      const data = {
-        name: this.name,
-        email: this.email,
-        object: this.object,
-        message: this.message,}
+
       button.disabled = true
       button.innerText = 'Fenêtre ouverte!'
       window.open('mailto:gabrielbriatte@gmail.com?subject=Contact');
