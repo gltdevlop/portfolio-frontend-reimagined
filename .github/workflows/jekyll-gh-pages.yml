@@ -26,7 +26,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: check fimes
+      - name: check files
         uses: actions/checkout@v3
       - name: instal dep
         run: npm install
@@ -54,4 +54,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: depl final
+        uses: actions/checkout@v3
         run: npm run host
