@@ -53,6 +53,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: depl final
+      - name: check files
         uses: actions/checkout@v3
+      - name: depl final
         run: npm run host
