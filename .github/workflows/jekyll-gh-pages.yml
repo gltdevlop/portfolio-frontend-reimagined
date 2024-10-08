@@ -22,13 +22,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+      
   # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: instal dep
-        run: cd portfolio-frontend-reimagined &&
-             npm install
+        run: npm install
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
