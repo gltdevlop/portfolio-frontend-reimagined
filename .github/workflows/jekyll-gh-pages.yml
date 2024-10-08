@@ -26,8 +26,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: install dep
-        run: npm install
+
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
