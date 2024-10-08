@@ -27,7 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: instal dep
-        run: npm install
+        run: cd portfolio-frontend-reimagined
+             npm install
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
