@@ -108,4 +108,15 @@
         "description": "Page d'accueil minecraft modifiée par moi"
       }
     ]
+  },
+  {
+    "id": "mcservers",
+    "title": "<span>&#128421;</span>  Serveurs Minecraft",
+    "description": "Dans toutes mes expériences, la plus important c'est surement les différents serveurs Minecraft que j'ai fait. Faire un serveur Minecraft nécessite de nombreuses compétences : <br><br> Savoir utiliser un OS Linux, développer en java, savoir gérer des BDD, des infrastructures proxy...",
+    "tags": [ "Java", "Minecraft", "Servers"],
+    "images": [
+      {
+        "description": "J'ai créé de nombreux serveurs. Le tout premier que j'ai fait remonte a mes 10 ans sur l'hébergeur gratuit Aternos. Un premier pas dans le monde de la gestion de serveurs. rapidement, l'hébergement gratuit s'avérant trop léger, j'ai acheté mon premier serveur chez Minestrator, un hébergeur Minecraft. J'ai commencé au même moment à développer des plugins en Java. J'ai créé alors AxiCraft, puis GiCraft, deux serveurs qui ont assez bien fonctionnés avec des mods et plugins créés par moi même. Ensuite, j'ai ouvert Tropixeel, un serveur beaucoup plus avancé avec des mods et plugins de mieux en mieux codés. J'ai ensuite fait Geosiearth, un projet avorté car manque de moyens. La création de serveurs minecraft est une activité qui forme à de nombreuses compétences serveurs tel que la gestion de proxy entre plusieurs serveurs (BungeeCord), la gestion des mods et plugins qu'on développe nous même (Spigot/Sponge/Forge/Mohist) et la gestion d'infrastructure en général. Une bonne partie des connaissances que j'ai aujourd'hui viennt de ce jeu et de ces serveurs."
+      }
+    ]
   }]
