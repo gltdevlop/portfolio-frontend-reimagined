@@ -53,7 +53,12 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: check files
         uses: actions/checkout@v3
-      - name: instal dep
+      - name: Install dependencies
         run: npm install
-      - name: depl final
-        run: npm run host
+      - name: Build the app
+        run: npm run build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
