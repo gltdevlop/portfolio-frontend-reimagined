@@ -35,7 +35,6 @@ export default {
       event.preventDefault()
       const form = event.target
       const button = form.querySelector('button')
-
       button.disabled = true
       button.innerText = 'Fenêtre ouverte!'
       window.open('mailto:gabrielbriatte@gmail.com?subject=Contact');
