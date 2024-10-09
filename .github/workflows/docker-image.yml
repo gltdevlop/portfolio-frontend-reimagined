@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Create Docker Portfolio Image
 
 on:
   push:
@@ -14,9 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: instal dep
-      run: npm install
-    - name: build website
-      run: npm run build-only
     - name: Build the Docker image
       run: docker build . --tag portfolio:latest
