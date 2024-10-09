@@ -16,3 +16,4 @@ jobs:
        with:
          image-name-overwrite: portfolio
          token: ${{ secrets.GITHUB_TOKEN }}
+         tags: latest
