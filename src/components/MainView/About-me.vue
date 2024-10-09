@@ -11,7 +11,7 @@
         <br><br>
         J'ai ensuite développé en HTML/CSS afin de réaliser mes premiers sites web et j'ai de suite appris comment utiliser un ordinateur comme serveur afin de faire des serveurs Minecraft.
         <br><br>
-        De l'audiovisuel c(omme les vidéos Youtube) à l'informatique (serveurs) en passant par le bricolage (menuiserie), ce sont ces domaines qui m'ont forgés et qui m'ont appris à apprendre en autodidacte.
+        De l'audiovisuel (comme les vidéos Youtube) à l'informatique (serveurs) en passant par le bricolage (menuiserie), ce sont ces domaines qui m'ont forgés et qui m'ont appris à apprendre en autodidacte.
       </p>
     </div>
     <div class="second">

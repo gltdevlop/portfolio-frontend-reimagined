@@ -17,20 +17,44 @@
         </div>
       </div>
     </div>
+    <div class="title">
+      <h2>Expériences en milieu asssociatif <span>&#128101;</span></h2>
+      <p>En dehors de l'informatique, je fais parti de plusieurs associations :</p>
+    </div>
+    <div class="separation"/>
+    <div class="list">
+      <div class="item" v-for="item in experiencesasso" :key="item.id">
+        <div class="left">
+          <img :src="`/data-assets/experiences/${item.image}`" :alt="`Logo de l'association ${item.name}`">
+          <p v-html="item.description"/>
+        </div>
+        <div class="right">
+          <h3>{{ item.title }}</h3>
+          <p v-html="item.text"/>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
 import experiencesData from '@/assets/data/experiences.json'
+import associationData from '@/assets/data/associations.json'
+import {extractRuntimeProps} from "eslint-plugin-vue/lib/utils/ts-utils/ts-ast";
+
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'Experience',
+  methods: {extractRuntimeProps},
   data() {
     return {
       experiences: experiencesData,
+      experiencesasso: associationData,
     }
   }
 }
+
+
 </script>
 
 <style lang="sass" scoped>
