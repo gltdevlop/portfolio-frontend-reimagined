@@ -15,3 +15,5 @@ jobs:
        uses: GlueOps/github-actions-build-push-containers@v0.4.1
        with:
          image_name: portfolio
+         registry: docker.io
+         registry-username: ${{ github.username }}
