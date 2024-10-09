@@ -14,6 +14,5 @@ jobs:
      - name: build push   
        uses: GlueOps/github-actions-build-push-containers@v0.4.1
        with:
-         image_name: portfolio
-         registry: ghcr.io
-         registry-username: ${{ github.action }}
+         image-name-overwrite: portfolio
+         token: ${{ secrets.GITHUB_TOKEN }}
