@@ -1,6 +1,6 @@
 <template>
   <section id="compétences">
-    <h2>Voici tout ce que j'ai appris à faire<span>&#9997;</span></h2>
+    <h2>Mes compétences acquises<span>&#9997;</span></h2>
     <div class="timeline">
       <div class="item" v-for="( item, index ) in skills" :key="item.id" :class="{ right: index % 2 !== 0 }">
         <span class="date">{{ item.date }}</span>
