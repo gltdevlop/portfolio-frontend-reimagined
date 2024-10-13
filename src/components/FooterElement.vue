@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container">
-      <p>© 2024 • Fait avec VueJS par <a href="https://oural.dev">Oural</a> et moi.</p>
+      <p>© 2024 • Fait avec VueJS par Oural et moi.</p>
       <div>
         <a href="https://github.com/gltdevlop" target="_blank">
           <img src="@/assets/logos/github.svg" width="32" height="32" alt="Github">
