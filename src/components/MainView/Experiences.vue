@@ -83,13 +83,13 @@ export default {
     p
       max-width: 65%
   .separation
-    width: 75%
+    width: 100%
     position: relative
     left: 50%
     transform: translateX(-50%)
-    height: 1px
+    height: 2px
     background-color: $color-highlight
-    margin-top: 5rem
+    margin-top: 3rem
   .list
     display: flex
     flex-direction: column
