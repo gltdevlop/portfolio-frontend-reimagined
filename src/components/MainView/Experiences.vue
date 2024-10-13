@@ -17,11 +17,14 @@
         </div>
       </div>
     </div>
+    <div class="separation2"/>
+
     <div class="title">
       <h2>Expériences en milieu asssociatif <span>&#128101;</span></h2>
       <p>En dehors de l'informatique, je fais parti de plusieurs associations :</p>
     </div>
     <div class="separation"/>
+
     <div class="list">
       <div class="item" v-for="item in experiencesasso" :key="item.id">
         <div class="left">
@@ -83,13 +86,22 @@ export default {
     p
       max-width: 65%
   .separation
-    width: 100%
+    width: 40%
+    position: relative
+    left: 50%
+    transform: translateX(-50%)
+    height: 2px
+    background-color: $color-secondary
+    margin-top: 4rem
+  .separation2
+    width: 90%
     position: relative
     left: 50%
     transform: translateX(-50%)
     height: 2px
     background-color: $color-highlight
-    margin-top: 3rem
+    margin-top: 4rem
+    margin-bottom: 7rem
   .list
     display: flex
     flex-direction: column
