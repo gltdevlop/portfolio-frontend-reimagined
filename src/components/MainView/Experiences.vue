@@ -94,7 +94,7 @@ export default {
     background-color: $color-secondary
     margin-top: 4rem
   .separation2
-    width: 90%
+    width: 120%
     position: relative
     left: 50%
     transform: translateX(-50%)
