@@ -3,7 +3,7 @@
     <div class="first">
       <h2>Qui suis-je ?</h2>
       <p>
-        Je suis un lycéen de 16 ans au CNED qui à toujours aimé bidouiller
+        Je suis un lycéen de 16 ans au CNED qui a toujours aimé bidouiller
         <br><br>
         Depuis mon premier ordinateur dès l'âge de 7 ans, j'ai toujours adoré l'informatique et toucher à tout, de la soudure aux serveurs en passant par le développement.
         <br><br>
@@ -18,7 +18,7 @@
       <div style="max-width: 70%">
         <h2>Et plus tard ?<span>&#128640;</span></h2>
         <ul>
-          <li>J'ai choisi les spécialités NSI, HGGSP et SES afin d'intégrer une école telle que Sciences Politiques et ensuite faire un diplôme d'Administration système.</li>
+          <li>J'ai choisi les spécialités NSI, HGGSP et SES afin d'intégrer une école comme Sciences Politiques et ensuite faire un diplôme d'Administration système.</li>
           <li>J'aime beaucoup le domaine des serveurs et j'aimerai m'y spécialiser</li>
           <li>En attendant, je cherche à acquérir de l'expérience dans l'informatique par le biais de stages ou des jobs étudiant en parallèle des cours.</li>
         </ul>
