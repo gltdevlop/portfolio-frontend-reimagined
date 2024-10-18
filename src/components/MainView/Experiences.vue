@@ -92,7 +92,7 @@ export default {
     transform: translateX(-50%)
     height: 2px
     background-color: $color-secondary
-    margin-top: 4rem
+    margin-top: 2rem
   .separation2
     width: 120%
     position: relative
