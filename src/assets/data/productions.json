@@ -119,4 +119,27 @@
         "description": "J'ai créé de nombreux serveurs. Le tout premier que j'ai fait remonte a mes 10 ans sur l'hébergeur gratuit Aternos, un premier pas dans le monde de la gestion de serveurs. Rapidement, l'hébergement gratuit s'avérant trop léger, j'ai acheté mon premier serveur chez Minestrator, un hébergeur Minecraft. J'ai commencé au même moment à développer des plugins en Java. J'ai créé alors AxiCraft, puis GiCraft, deux serveurs qui ont assez bien fonctionnés avec des mods et plugins (aussi créés par moi-même). Ensuite, j'ai ouvert Tropixeel, un serveur beaucoup plus avancé avec des mods et plugins de mieux en mieux codés. J'ai ensuite fait Geosiearth, un projet avorté par manque de moyens. La création de serveurs minecraft est une activité qui forme à de nombreuses compétences serveurs tel que la gestion de proxy entre plusieurs serveurs (BungeeCord), la gestion des mods et plugins qu'on développe en auto-développement (Spigot/Sponge/Forge/Mohist) et la gestion d'infrastructures en général. Une bonne partie des connaissances que j'ai aujourd'hui viennt de ce jeu et de ces serveurs."
       }
     ]
+  },
+  {
+    "id": "aplmsc",
+    "title": "<span>&#127926;</span>  Afficheur de Paroles",
+    "description": "Pour le défi, j'ai décidé de créer une application qui affiche et fait défiler les paroles d'une musique à la manière d'Apple Music.<br><br>Cette Application est faite en Python et est en cours de développement.",
+    "tags": [ "Java", "Minecraft", "Servers"],
+    "images": [
+      {
+        "id": "selecteur.png",
+        "type": "IMG",
+        "description": "Sélecteur de Musique"
+      },
+      {
+        "id": "player.png",
+        "type": "IMG",
+        "description": "Player de Musique"
+      },
+      {
+        "id": "inspi.png",
+        "type": "IMG",
+        "description": "Inspiration initiale"
+      }
+    ]
   }]
