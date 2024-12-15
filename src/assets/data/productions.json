@@ -142,4 +142,23 @@
         "description": "Inspiration initiale"
       }
     ]
+  },
+ {
+    "id": "ignote",
+    "title": "<span>&#128248;</span>  IGNoteIntegration",
+    "description": "Une application qui réplique le fonctionnement de l'intégration sur Discord du jeu en cours mais dans les notes Instagram.<br>Il permet d'afficher sur instagram le jeu en cours ou l'IDE en cours.",
+    "tags": [ "Instagram", "Note", "Jeux et IDE"],
+    "images": [
+      {
+        "id": "note.png",
+        "type": "IMG",
+        "description": "Note"
+      },
+      {
+        "id": "inspi.png",
+        "type": "IMG",
+        "description": "Inspiration initiale"
+      }
+    ]
+
   }]
